@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" id="inicio">
+        <h1 class="especial">
+        <a href="index.html">Inicio &nbsp;</a>
+        <a href="#servicio"> Servicio&nbsp;</a>
+        <a href="#quienes_somos"> ¿Quienes somos?&nbsp;</a>
+        <a href="#contacto"> Contacto&nbsp;</a>
+        <a href="#expertos"> Expertos&nbsp;</a>
+        <a href="#galeria"> Galeria</a>
+        </h1>
+        <div class="contenedor head">
+            <h1 class="titulo">Cambia las reglas de juego...</h1>
+            <p class="copy">Juegos de todo tipo y para todas las consolas</p>
+        </div>
+    </header>
+    <br>
+
+    <center><h3>Por Favor Ingrese sus Datos</h3></center>
+    <form>
+        <center><div class="especial">
+            <form>
+                <label>Selecione una Opci&oacute;n</label>
+                <select id="continente" name="continente">
+                    <option value="">Seleccione</option>
+                    <option value="Cedula de Ciudadania">Cedula de Ciudadania</option>
+                    <option value="Tarjeta de identidad">Tarjeta de identidad</option>
+                    <option value="Cedula de extrangeria">Cedula de extrangeria</option>
+                    <option value="Otro documento de identidad">otro documento de indentidad</option>
+                    <option value="Permiso especial de permanencia">Permiso especial de permanencia</option>
+                    <option value="Permiso por proteccion temporal">Permiso por proteccion temporal</option>
+                </select>
+            </form>
+            <br>
+            <br>
+            <form style="text-align: left;">
+                <label for="">No. de Identificaci&oacute;n: </label>&nbsp;
+                <input type="number" id="Identificacion" name="Identificacion" placeholder="Digite el numero" minlength="1" maxlength="20" size="20"><br>
+            </form>
+            <br>
+            <form style="text-align: left;">
+                <label for="">Nombres:</label>&nbsp;
+                <input type="text" id="nombres" name="nombres" placeholder="Digite los nombres..." minlength="1" maxlength="30" size="15"><br>
+            </form>
+            <br>
+            <form style="text-align: left;">
+                <label for="">Apellidos:</label>&nbsp;
+                <input type="text" id="apellidos" name="apellidos" placeholder="Digite los apellidos..." minlength="1" maxlength="30" size="15"><br>
+            </form>
+            <br>
+            <form style="text-align: left;">
+                <legend>Email:</legend>
+                <input type="email" id="email" name="email" required placeholder="email@email.com">
+                <input type="submit" value="Enviar">
+            </form>
+            <br>
+            <form style="text-align: left;">
+                <leabel>Fecha de nacimiento: </leabel>
+                <input type="date" id="fechanacimiento" name="fechanacimiento" step="1" min="1900-01-01" max="2022-12-31" required>
+            </form>
+            <form style="text-align: left;">
+                <label>G&eacute;nero:</label><br>
+                <input type="radio" id="Femenino" name="Genero" value="Femenino">Femenino <br>
+                <input type="radio" id="Masculino" name="Genero" value="Masculino">Masculino<br>
+                <input type="radio" id="Otro" name="Genero" value="Otro">Otro<br>
+            </form>
+            <from style="text-align: left;">
+                <br>
+                <label>Sugerencias:</label><br>
+                <textarea id="desc" name="desc" cols="40" rows="5" required placeholder="Digite la Sugerencia"></textarea>
+            </from>
+            <br>
+            <form style="text-align: left;">
+                <label>Selecione el horario de su preferencia: </label>
+                <select id="horarios" name="horarios" required>
+                    <option value="">Seleccione</option>
+                    <option value="Mañana">Mañana</option>
+                    <option value="Tarde">Tarde</option>
+                    <option value="Noche">Noche</option>
+                    <option value="Fin de semana">Fin de semana</option>
+                </select>
+            </form>
+            <br>
+            <from>
+                <input type="submit" value="Enviar Datos" id="enviar" name="enviar" onclick="myFuction()">
+                <input type="reset" value="Reestablecer Datos" id="borrar" name="borrar">
+        
+        
+            <script>//por medio de ventanas
+                function myFuction(){
+                    window.alert("Tus datos han sido enviados correctamente");
+                } 
+            </script>
+            <br>
+        </div></center>
+    </form>
+    <footer id="contacto">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <h2 class="brand">Gaming set</h2>
+                <p>Solo expertos en la creaci&oacute;n de tu zona Gaming</p>
+                <p>By:Carolina Franco</p>
+            </div>
+            <div class="social-media">
+                <a href="" class="social-media-icon">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="" class="social-media-icon">
+                    <i class='bx bxl-twitter' ></i>
+                </a>
+                <a href="" class="social-media-icon">
+                    <i class='bx bxl-instagram' ></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    padding: 10px;
+    text-align: center;
+    }
+
+:root{
+    scroll-behavior: smooth ;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px, 0;
+}
+
+header{
+    height: 100vh;
+    background-image: linear-gradient(to top, #301261d5 0%, #7947bb99 100%), url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+}
+.head{
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+h1.especial{
+    position: sticky; top: 0;
+    background-color: #3304a0b0;
+    background-image: linear-gradient(to top, #301261d5 0%, #7947bb99 100%), url(../img/games.png);
+    padding: 30px;
+    border: 3px solid #1d1c1c;
+    border-radius: 7px;
+    color: white;
+    margin-left: 0px;
+}
+
+a{
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.titulo{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.copy{
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.subtitulo{
+   text-align: center;
+   font-weight: 300;
+   color: #70078a;
+   margin-bottom: 40px; 
+   font-size: 40px;
+}
+
+.contenedor-servicio{
+    background-color: #751b8bd4;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-quien{
+    background-color: #1c2b7cd9;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-formulario{
+    border-radius: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 20px ;
+}
+div.especial{
+    background-image: linear-gradient(to top, #301261d5 0%, #7947bb99 100%), url(../img/games.png);
+    color: #ffffff;
+    width: 600px;
+    border: 15px solid black;
+    border-radius: 7px;
+    padding: 20px;
+    margin: 10px;
+    text-align: left;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 0px;
+    align-content: flex-end;
+}
+
+.contenedor-servicio img{
+    width: 40%;
+}
+
+.checklist-servicio{
+    width: 45%;
+}
+
+.service{
+    margin-bottom: 20px;
+}
+
+.n-service{
+    margin-bottom: 7px;
+    color: #4600e9;
+}
+
+.number{
+    display: inline-block;
+    background-image: linear-gradient(120deg, #002e78 0%, #003249 100%);
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 700;
+    line-height: 30px;
+    margin-right: 5px;
+}
+
+.galeria{
+    background: #f2f2f2;
+}
+
+.contenedor-galeria{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #580c6b;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.img-galeria{
+    width: 30%;
+    display: block;
+    margin-bottom: 15px;
+    box-shadow: 0 0 6px #00000080;
+}
+
+.experts{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cont-expert{
+    text-align: center;
+}
+
+footer{
+    background: #151187;
+    padding-bottom: 0.1px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.contact-us{
+    width: 40%;
+    color: #fff;
+}
+
+.brand{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.brand+p{
+    font-weight: 500;
+}
+
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.social-media-icon:hover{
+    background: #fff;
+    color: #580c6b;
+}
+
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+}
+
+
+
+
+
